@@ -43,6 +43,7 @@ double timediff(struct timespec a, struct timespec b){
 }
 
 int main(){
+	printf("Program wykonuje mnożenie dwóch macierzy\n"); // Zmiana
     static int    A_i[N][N], B_i[N][N];
     static long   C_i[N][N];
 
